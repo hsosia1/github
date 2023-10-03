@@ -1,0 +1,6 @@
+start = root
+root = element root {title, name}
+title = element title {name,text}
+name = element name {stanza,text}
+stanza = element stanza {li, text}
+li = element li {text}

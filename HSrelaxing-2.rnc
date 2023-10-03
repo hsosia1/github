@@ -1,0 +1,17 @@
+start = root
+root = element root {source, poem}
+source = element source {text, title, name, date}
+title = element title {name, text}
+name = element name {date, text}
+date = element date {poem,text}
+poem = element poem {line, text}
+line = element line {info,text} 
+info = element info {type, text}
+type = element type {location, date}
+location = element location {stamp, text}
+stamp = element stamp {published,text}
+published = element published {text}
+
+
+
+
